@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(13, 1, 1, 0.2);
+}
+
+#display {
+
+    width: 65%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 71px;
+}
+
+.buttons {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(72, 93, 110);
+}
+
+
+
+
+
+
+
+
+
+/* ... Your existing CSS code ... */
+.clear-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#display {
+    flex-grow: 1;
+    /* Expand the input to fill available space */
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 10px;
+    /* Add a small margin between the input and "C" button */
+}
+
+button#clearbtn {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background: aqua;
+    min-width: 65px;
+    /* Ensure a minimum width for the "C" button */
+}
+
+button#clearbtn:hover {
+    background-color: lightcyan;
+}
+
+/* ... Your existing CSS code ... */
